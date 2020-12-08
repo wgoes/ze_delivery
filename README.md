@@ -35,3 +35,29 @@ Ainda no arquivo Env.rb é feito a configuração do capybara:
 > end  
 
 Daí pra frente é basicamente automatizar os cenários.
+
+# Informações do teste realizado:  
+3 PRINCIPAIS FLUXOS - ZÉ DELIVERY (PLATAFORMA WEB):  
+  
+**FLUXO 1 =>** Checkout (sacola, checkout, pagamento)  
+**Motivo da importância:** É importante pois é através desse fluxo que o cliente adquire sua bebida gelada.  
+				
+**FLUXO 2 =>** Visualizar produtos por endereço:  
+**Motivo da importância:** É importante pois é um pré-requisito para que o cliente possa visualizar os produtos disponíveis para sua localização.  
+
+**FLUXO 3 =>** Login:  
+**Motivo da importância:** É importante pois é um pré-requisito para efetuar compras no site.  
+
+**OBS.: Dentro desses fluxos existem muitos cenários possíveis.  **
+
+Para o desafio foi utilizado o fluxo de "Visualizar produtos por endereço".  
+
+> **Funcionalidade: Visualizar produtos por endereço  **
+
+> **Cenário:** Visualizar produtos disponíveis para determinada região  
+
+> **Dado** que o cliente acessou o site  
+> **E** informou que tem 18 anos ou mais.  
+> **Quando** informar o endereço <endereco>  
+>   **E** clicar clicar em Ver produtos disponíveis  
+> **Então** os produtos disponíveis devem ser exibidos ao cliente.  

@@ -1,4 +1,5 @@
 $productByAddress = ProductsByAddressPage.new
+$productsResult = ProductsResultPage.new
 $address = "Rua da Penha, 80 Centro, Sorocaba - SP"
 
 Dado("que o cliente acessou o site.") do
@@ -24,5 +25,5 @@ end
 
 Então("os produtos disponíveis para a região em questão devem ser exibidos ao cliente.") do
   expect($productByAddress.current_address.text).to eql $address
-  expect(page).to have_selector ".css-1edv5hb-shelvesContainer"
+  expect(page).to have_selector $productsResult.product_list
 end

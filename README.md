@@ -1,9 +1,9 @@
 # ze_delivery
 
-Para configurar o ambiente é necessário:
+Para configurar o ambiente é necessário:  
 
-Ruby instalado.
-ter a gem "bundler" instalada.
+Ruby instalado.  
+ter a gem "bundler" instalada.  
 
 Basicamente para montar o ambiente, foi criado um diretório e o mesmo foi aberto no visual studio code.
 
